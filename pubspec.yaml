@@ -1,9 +1,9 @@
 name: orange_module
 description: "Orange module is a wrapper for the orange package, it provides a simple way to use orange in juneflow project."
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneflow-songdo/orange_module
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
