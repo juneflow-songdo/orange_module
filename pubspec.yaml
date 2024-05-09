@@ -1,0 +1,25 @@
+name: orange_module
+description: "Orange module is a wrapper for the orange package, it provides a simple way to use orange in juneflow project."
+#publish_to: 'none'
+#repository: https://github.com/melodysdreamj/juneflow
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router:
+  june_flow_util:
+  orange: #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/module/orange_module/
+  uses-material-design: true
